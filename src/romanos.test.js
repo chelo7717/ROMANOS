@@ -7,4 +7,7 @@ describe("ROMANOS", () => {
   it("deberia devolver II para el numero 2", () => {
     expect(convertirRomanos(2)).toEqual("II");
   });
+  it("deberia devolver III para el numero 3", () => {
+    expect(convertirRomanos(3)).toEqual("III");
+  });
 });
