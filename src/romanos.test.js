@@ -16,4 +16,7 @@ describe("ROMANOS", () => {
   it("deberia devolver V para el numero 5", () => {
     expect(convertirRomanos(5)).toEqual("V");
   });
+  it("deberia devolver VI para el numero 6", () => {
+    expect(convertirRomanos(6)).toEqual("VI");
+  });
 });
