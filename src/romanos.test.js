@@ -22,4 +22,10 @@ describe("ROMANOS", () => {
   it("deberia devolver VII para el numero 7", () => {
     expect(convertirRomanos(7)).toEqual("VII");
   });
+  it("deberia devolver VIII para el numero 8", () => {
+    expect(convertirRomanos(8)).toEqual("VIII");
+  });
+  it("deberia devolver IX para el numero 9", () => {
+    expect(convertirRomanos(9)).toEqual("IX");
+  });
 });
