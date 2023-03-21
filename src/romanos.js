@@ -3,9 +3,11 @@ function convertirRomanos(num) {
   var romano="";
   while(num>0){
     cant=parseInt(num/10);
-    if(num == 10){
-      romano += "X"
-      num -= 10
+    if(num >= 10){
+      for(var i=0;i<cant;i++){
+        romano += "X"
+        num -= 10
+      }
     }else{
       if(num == 9){
         romano += "IX"
