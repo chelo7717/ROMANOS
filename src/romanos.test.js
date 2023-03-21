@@ -43,4 +43,7 @@ describe("ROMANOS", () => {
   it("deberia devolver XLI para el numero 41", () => {
     expect(convertirRomanos(41)).toEqual("XLI");
   });
+  it("deberia devolver L para el numero 50", () => {
+    expect(convertirRomanos(50)).toEqual("L");
+  });
 });
