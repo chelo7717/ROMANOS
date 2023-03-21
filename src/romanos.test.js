@@ -49,4 +49,7 @@ describe("ROMANOS", () => {
   it("deberia devolver XC para el numero 90", () => {
     expect(convertirRomanos(90)).toEqual("XC");
   });
+  it("deberia devolver C para el numero 100", () => {
+    expect(convertirRomanos(100)).toEqual("C");
+  });
 });
