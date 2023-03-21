@@ -10,4 +10,10 @@ describe("ROMANOS", () => {
   it("deberia devolver III para el numero 3", () => {
     expect(convertirRomanos(3)).toEqual("III");
   });
+  it("deberia devolver IV para el numero 4", () => {
+    expect(convertirRomanos(4)).toEqual("IV");
+  });
+  it("deberia devolver V para el numero 5", () => {
+    expect(convertirRomanos(5)).toEqual("V");
+  });
 });

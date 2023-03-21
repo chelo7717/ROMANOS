@@ -3,10 +3,16 @@ function convertirRomanos(num) {
   var romano="";
   while(num>0){
     cant=parseInt(num/10);
-    for(var i=0;i<num;i++){
-      romano+="I"
+    if(num == 4){
+      romano += "IV"
+      num -= 4
+    }else{
+      for(var i=0;i<num;i++){
+        romano+="I"
+      }
+      num = 0;
     }
-    num = 0;
+    
   }
 
   return romano;
